@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="c.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Muhammad Ameen">
+        <meta name="description" content="Portfolio of Muhammad Ameen - Graphic Designer, Web Designer, and Social Media Manager. Showcasing creative projects and expertise.">
+        <meta name="keywords" content="Muhammad Ameen, Graphic Design, Web Design, Social Media Management, Portfolio">
+        <meta name="robots" content="index, follow">
+    
+        <!-- Open Graph / Facebook -->
+        <meta property="og:title" content="Muhammad Ameen - Portfolio">
+        <meta property="og:description" content="Explore the creative portfolio of Muhammad Ameen, featuring graphic design, web design, and social media projects.">
+        <meta property="og:image" content="URL_TO_YOUR_IMAGE">
+        <meta property="og:url" content="YOUR_WEBSITE_URL">
+        <meta property="og:type" content="website">
+    
+        <!-- Twitter -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Muhammad Ameen - Portfolio">
+        <meta name="twitter:description" content="Discover the works of Muhammad Ameen in graphic design, web design, and social media management.">
+        <meta name="twitter:image" content="URL_TO_YOUR_IMAGE">
+
+        <!-- link -->
+
+    </head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="h.html"><img src="eduford_img/logo.png" alt=""></a>
+        <div class="nav-linkes" id="navlinkes">
+            <i class="fa-solid fa-xmark" onclick="hidemenu()"></i>    
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Course</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Contact</a></li> 
+            </ul>
+            
+        </div>
+        <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>World's Biggest Library</h1>
+            <p>Making website is now one of the easiest thing in the world. You can just need to learn Html and css,<br> and Javascript. and you are good to go</p>
+            <a href="" class="hero-btn">Visit Us to Know more</a>
+        </div>
+    </section>
+
+<script>
+    var navLinkes = document.getElementById("navlinkes");
+    function showmenu(){
+        navLinkes.style.right="0";
+        navLinkes.style.display="block";
+    }
+    function hidemenu(){
+        navLinkes.style.right="-200px";
+        
+    }
+</script>
+
+
+</body>
+</html>
