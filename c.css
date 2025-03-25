@@ -3,7 +3,7 @@
     margin:0px;
     box-sizing: border-box;
     font-family: sans-serif;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 .header {
     min-height:100vh;
@@ -118,4 +118,57 @@ nav .fa-solid {
     .nav-linkes ul {
         padding:0px 30px 0px 20px;
     } 
+}
+
+/* sectoin 2 */
+
+.course {
+    width:80%;
+    margin:auto;
+    text-align:center;
+    padding-top:100px;
+}
+h1 {
+    font-size:36px;
+    font-weight:600;
+}
+p {
+    font-size:14px;
+    font-weight:300;
+    line-height:22px;
+    color:#5f4d4c;
+    padding:10px;
+}
+.offer {
+    margin:10px 0px 40px;
+}
+.row {
+    display:flex;
+    margin:5px;
+    justify-content:space-between;
+}
+.course-col  {
+    background-color:bisque;
+    flex-basis:31%;
+    /* border:1px solid #5f4d4c; */
+    border-radius:10px;
+    padding:20px;
+    margin-bottom:5%;
+    transition: all 0.5s;
+}
+h3 {
+    text-align:center;
+    font-weight:600;
+    margin:10px 0;
+}
+.course-col:hover {
+    box-shadow:0px 0px 20px 0px rgba(0,0,0,0.2);
+}
+@media only screen and (max-width:700px){
+    .row {
+        flex-direction:column;
+    }
+    .we {
+        font-size:x-large;
+    }
 }
